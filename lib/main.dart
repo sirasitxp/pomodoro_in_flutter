@@ -38,7 +38,7 @@ class _MyHomePageState extends State<MyHomePage> {
 
   void _startTimer(){
     if (_timer != null){
-      _timer.cancel();
+      _stopTimer();
     }
   if (_minutes > 0){
   _seconds = _minutes * 60;
