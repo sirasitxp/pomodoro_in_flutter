@@ -23,8 +23,8 @@ class MyHomePage extends StatefulWidget {
 }
 
 class _MyHomePageState extends State<MyHomePage> {
-  int _seconds = 10;
-  int _minutes = 0;
+  int _seconds = 00;
+  int _minutes = 25;
   Timer _timer;
   var f = NumberFormat("00");
 
